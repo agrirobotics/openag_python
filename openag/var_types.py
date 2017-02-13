@@ -13,7 +13,7 @@ class EnvVar:
         return self.name
 
 AIR_TEMPERATURE = EnvVar(
-    "air_temperature", "Temperature of the air in degrees Celcius", "degrees C"
+    "air_temperature", "Temperature of the air in degrees Celsius", "degrees C"
 )
 AIR_HUMIDITY = EnvVar(
     "air_humidity",
@@ -27,7 +27,7 @@ AIR_FLUSH_ON = EnvVar(
     "air_flush_on", "Turn on air flush (off by default)"
 )
 WATER_TEMPERATURE = EnvVar(
-    "water_temperature", "Temperature of the water in degrees Celcius",
+    "water_temperature", "Temperature of the water in degrees Celsius",
     "degrees C"
 )
 WATER_POTENTIAL_HYDROGEN = EnvVar(
